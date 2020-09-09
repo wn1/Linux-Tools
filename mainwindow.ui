@@ -14,13 +14,13 @@
    <string>Test Tools For Linux v0.1</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="buildNameLabel">
     <property name="geometry">
      <rect>
-      <x>60</x>
+      <x>20</x>
       <y>10</y>
-      <width>174</width>
-      <height>17</height>
+      <width>281</width>
+      <height>71</height>
      </rect>
     </property>
     <property name="sizePolicy">
@@ -34,6 +34,9 @@
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
     <property name="geometry">
      <rect>
       <x>60</x>
