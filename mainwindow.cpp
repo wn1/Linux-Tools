@@ -7,8 +7,8 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    Test *test = new Test();
-    QString* buildName = test->getBuildInfo();
+    Test test = Test();
+    QString* buildName = test.getBuildInfo();
     buildName->prepend("Linux build version: \n");
     ui->buildNameLabel->setText(*buildName);
 }
